@@ -1,0 +1,143 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "id": "@id",
+        "type": "@type",
+        "ex": "https://example.org/examples#",
+        "name": "http://schema.org/name",
+        "image": {
+            "@id": "http://schema.org/image",
+            "@type": "@id"
+        },
+        "hetc": "https://w3c-ccg.github.io/vc-json-schemas/example/cmtr/v0.2/cmtr-v0.2#",
+        "UserInfo": {
+            "@id": "ex:UserInfo",
+            "@context": {
+                "@version": 1.1,
+                "@protected": true,
+                "id": "@id",
+                "type": "@type",
+                "xsd": "http://www.w3.org/2001/XMLSchema#",
+                "ex": "https://example.org/examples#",
+                "name": {
+                    "@id": "ex:name",
+                    "@type": "xsd:string"
+                },
+                "birthday": {
+                    "@id": "ex:birthday",
+                    "@type": "xsd:string"
+                },
+                "sex": {
+                    "@id": "ex:sex",
+                    "@type": "xsd:string"
+                },
+                "hpNo": {
+                    "@id": "ex:hpNo",
+                    "@type": "xsd:string"
+                },
+                "localYn": {
+                    "@id": "ex:localYn",
+                    "@type": "xsd:string"
+                },
+                "registerDate": {
+                    "@id": "ex:registerDate",
+                    "@type": "xsd:string"
+                }
+            }
+        },
+        "SafePass": {
+            "@id": "ex:SafePass",
+            "@context": {
+                "@version": 1.1,
+                "@protected": true,
+                "id": "@id",
+                "type": "@type",
+                "xsd": "http://www.w3.org/2001/XMLSchema#",
+                "ex": "https://example.org/examples#",
+                "hospitalName": {
+                    "@id": "ex:hospitalName",
+                    "@type": "xsd:string"
+                },
+                "hospitalCode": {
+                    "@id": "ex:hospitalCode",
+                    "@type": "xsd:string"
+                },
+                "hospitalDID": {
+                    "@id": "ex:hospitalDID",
+                    "@type": "xsd:string"
+                },
+                "receptID": {
+                    "@id": "ex:receptID",
+                    "@type": "xsd:string"
+                },
+                "testType": {
+                    "@id": "ex:testType",
+                    "@type": "xsd:string"
+                },
+                "testMethod": {
+                    "@id": "ex:testMethod",
+                    "@type": "xsd:string"
+                },
+                "testDate": {
+                    "@id": "ex:testDate",
+                    "@type": "xsd:string"
+                },
+                "docID": {
+                    "@id": "ex:docID",
+                    "@type": "xsd:string"
+                },
+                "result": {
+                    "@id": "ex:result",
+                    "@type": "xsd:string"
+                },
+                "medicalDID": {
+                    "@id": "ex:medicalDID",
+                    "@type": "xsd:string"
+                },
+                "medicalName": {
+                    "@id": "ex:medicalName",
+                    "@type": "xsd:string"
+                },
+                "issueDate": {
+                    "@id": "ex:issueDate",
+                    "@type": "xsd:string"
+                }
+            }
+        },
+        "Hospital": {
+            "@id": "ex:Hospital",
+            "@context": {
+                "@version": 1.1,
+                "@protected": true,
+                "id": "@id",
+                "type": "@type",
+                "xsd": "http://www.w3.org/2001/XMLSchema#",
+                "ex": "https://example.org/examples#",
+                "hospitalID": {
+                    "@id": "ex:hospitalID",
+                    "@type": "xsd:string"
+                },
+                "hospitalCode": {
+                    "@id": "ex:hospitalCode",
+                    "@type": "xsd:string"
+                },
+                "hospitalName": {
+                    "@id": "ex:hospitalName",
+                    "@type": "xsd:string"
+                },
+                "hospitalChief": {
+                    "@id": "ex:hospitalChief",
+                    "@type": "xsd:string"
+                },
+                "hospitalPhone": {
+                    "@id": "ex:hospitalPhone",
+                    "@type": "xsd:string"
+                },
+                "registerDate": {
+                    "@id": "ex:registerDate",
+                    "@type": "xsd:string"
+                }
+            }
+        }
+    }
+}

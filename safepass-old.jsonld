@@ -1,0 +1,187 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "id": "@id",
+        "type": "@type",
+        "ex": "https://example.org/examples#",
+        "name": "http://schema.org/name",
+        "image": {
+            "@id": "http://schema.org/image",
+            "@type": "@id"
+        },
+        "hetc": "https://w3c-ccg.github.io/vc-json-schemas/example/cmtr/v0.2/cmtr-v0.2#",
+        "SpUserCard": {
+            "@id": "ex:SpUserCard",
+            "@context": {
+                "@version": 1.1,
+                "@protected": true,
+                "id": "@id",
+                "type": "@type",
+                "xsd": "http://www.w3.org/2001/XMLSchema#",
+                "ex": "https://example.org/examples#",
+                "user_id": {
+                    "@id": "ex:user_id",
+                    "@type": "xsd:string"
+                },
+                "user_nm": {
+                    "@id": "ex:user_nm",
+                    "@type": "xsd:string"
+                },
+                "user_birth": {
+                    "@id": "ex:user_birth",
+                    "@type": "xsd:string"
+                },
+                "hp_no": {
+                    "@id": "ex:hp_no",
+                    "@type": "xsd:string"
+                },
+                "email_addr": {
+                    "@id": "ex:email_addr",
+                    "@type": "xsd:email"
+                },
+                "gen_cd": {
+                    "@id": "ex:gen_cd",
+                    "@type": "xsd:string"
+                },
+                "nation_gbcd": {
+                    "@id": "ex:nation_gbcd",
+                    "@type": "xsd:string"
+                },
+                "ci": {
+                    "@id": "ex:ci",
+                    "@type": "xsd:string"
+                },
+                "di": {
+                    "@id": "ex:di",
+                    "@type": "xsd:string"
+                },
+                "alarm_allow_yn": {
+                    "@id": "ex:alarm_allow_yn",
+                    "@type": "xsd:boolean"
+                },
+                "wd_reason": {
+                    "@id": "ex:wd_reason",
+                    "@type": "xsd:string"
+                },
+                "del_yn": {
+                    "@id": "ex:del_yn",
+                    "@type": "xsd:boolean"
+                },
+                "last_chng_dt": {
+                    "@id": "ex:last_chng_dt",
+                    "@type": "xsd:date-time"
+                },
+                "last_chng_user_no": {
+                    "@id": "ex:last_chng_user_no",
+                    "@type": "xsd:string"
+                },
+                "frst_reg_dt": {
+                    "@id": "ex:frst_reg_dt",
+                    "@type": "xsd:date-time"
+                },
+                "frst_reg_user_no": {
+                    "@id": "ex:frst_reg_user_no",
+                    "@type": "xsd:string"
+                },
+                "bizid": {
+                    "@id": "ex:bizid",
+                    "@type": "xsd:string"
+                }
+            }
+        },
+        "UserInfo": {
+            "@id": "ex:UserInfo",
+            "@context": {
+                "@version": 1.1,
+                "@protected": true,
+                "id": "@id",
+                "type": "@type",
+                "xsd": "http://www.w3.org/2001/XMLSchema#",
+                "ex": "https://example.org/examples#",
+                "name": {
+                    "@id": "ex:name",
+                    "@type": "xsd:string"
+                },
+                "birthday": {
+                    "@id": "ex:birthday",
+                    "@type": "xsd:string"
+                },
+                "sex": {
+                    "@id": "ex:sex",
+                    "@type": "xsd:string"
+                },
+                "hp_no": {
+                    "@id": "ex:hp_no",
+                    "@type": "xsd:string"
+                },
+                "local_yn": {
+                    "@id": "ex:local_yn",
+                    "@type": "xsd:email"
+                },
+                "register_dt": {
+                    "@id": "ex:register_dt",
+                    "@type": "xsd:string"
+                }
+            }
+        },
+        "SafePass": {
+            "@id": "ex:SafePass",
+            "@context": {
+                "@version": 1.1,
+                "@protected": true,
+                "id": "@id",
+                "type": "@type",
+                "xsd": "http://www.w3.org/2001/XMLSchema#",
+                "ex": "https://example.org/examples#",
+                "hospital_name": {
+                    "@id": "ex:hospital_name",
+                    "@type": "xsd:string"
+                },
+                "hospital_code": {
+                    "@id": "ex:hospital_code",
+                    "@type": "xsd:string"
+                },
+                "hospital_did": {
+                    "@id": "ex:hospital_did",
+                    "@type": "xsd:string"
+                },
+                "recept_id": {
+                    "@id": "ex:recept_id",
+                    "@type": "xsd:string"
+                },
+                "test_type": {
+                    "@id": "ex:test_type",
+                    "@type": "xsd:string"
+                },
+                "test_method": {
+                    "@id": "ex:test_method",
+                    "@type": "xsd:string"
+                },
+                "doc_id": {
+                    "@id": "ex:doc_id",
+                    "@type": "xsd:string"
+                },
+                "result": {
+                    "@id": "ex:result",
+                    "@type": "xsd:string"
+                },
+                "medical_nm": {
+                    "@id": "ex:medical_nm",
+                    "@type": "xsd:string"
+                },
+                "medical_did": {
+                    "@id": "ex:medical_did",
+                    "@type": "xsd:string"
+                },
+                "test_dt": {
+                    "@id": "ex:test_dt",
+                    "@type": "xsd:email"
+                },
+                "issue_dt": {
+                    "@id": "ex:issue_dt",
+                    "@type": "xsd:string"
+                }
+            }
+        }
+    }
+}
